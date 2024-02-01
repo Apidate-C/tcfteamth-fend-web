@@ -1,0 +1,38 @@
+{
+  "name": "fend-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-pdf-viewer/core": "3.4.0",
+    "axios": "^0.26.1",
+    "cookie": "^0.4.2",
+    "date-fns": "^2.28.0",
+    "js-cookie": "^3.0.1",
+    "js-file-download": "^0.4.12",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "next": "12.1.0",
+    "pdfjs-dist": "2.14.305",
+    "react": "17.0.2",
+    "react-awesome-modal": "^2.0.5",
+    "react-cookie": "^4.1.1",
+    "react-datepicker": "^4.8.0",
+    "react-dom": "17.0.2",
+    "react-loader-spinner": "^3.1.8",
+    "react-responsive": "^9.0.0-beta.8",
+    "react-router-dom": "^6.3.0",
+    "styled-components": "^5.3.3",
+    "use-file-upload": "^1.0.11"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^2.0.3",
+    "eslint": "8.9.0",
+    "eslint-config-next": "12.1.0"
+  }
+}
