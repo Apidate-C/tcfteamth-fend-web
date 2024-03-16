@@ -67,7 +67,7 @@ const LoginScreen = () => {
             <BackgroundLogin>
                 <WrapperLogin>
                     <div className='logo-image-style'>
-                        <Image src={logo} />
+                        <Image src={logo} alt='logo' />
                     </div>
                     <h1>ระบบจัดการผู้ป่วย</h1>
                     <LoginBox>
